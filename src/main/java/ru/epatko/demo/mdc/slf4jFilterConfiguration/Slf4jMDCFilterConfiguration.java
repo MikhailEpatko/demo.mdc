@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Data
 @Configuration
-@ConfigurationProperties(prefix = "summer.slf4jfilter")
+@ConfigurationProperties(prefix = "slf4jfilter")
 public class Slf4jMDCFilterConfiguration {
 
     public static final String DEFAULT_RESPONSE_TOKEN_HEADER = "X-Token";
